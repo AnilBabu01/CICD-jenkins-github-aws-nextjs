@@ -35,7 +35,7 @@ export default function Home() {
               href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=default-template-tw&utm_campaign=create-next-app"
               className="font-medium text-zinc-950 dark:text-zinc-50"
             >
-              Templates
+         dskufhkdj f dr rg er gt dr gtr g t r
             </a>{" "}
             or the{" "}
             <a
