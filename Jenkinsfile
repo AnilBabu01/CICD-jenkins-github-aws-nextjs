@@ -1,3 +1,4 @@
+
 node {
     def appDir = '/var/www/nextjs-app'
 
