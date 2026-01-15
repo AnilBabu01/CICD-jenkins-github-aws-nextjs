@@ -35,14 +35,14 @@ export default function Home() {
               href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=default-template-tw&utm_campaign=create-next-app"
               className="font-medium text-zinc-950 dark:text-zinc-50"
             >
-         dskufhkdj f dr rg es r tr e td rt  ty tr y tr yr  yrt y try rt yrt y try trytrytry   tr ytr yt 
+         dskufhkdj f dr rg es r tr e td  try rt yrt y try trytrytry   tr ytr yt 
             </a>{" "}
             or the{" "}
             <a
               href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=default-template-tw&utm_campaign=create-next-app"
               className="font-medium text-zinc-950 dark:text-zinc-50"
             >
-         sekjfner er t er t ert r  g d rg  g f gh g f h f g  as s f ds fs df d f d g 
+         sekjfner er t er t ert r  g d 
             </a>{" "}
             center.
           </p>
