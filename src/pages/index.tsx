@@ -42,7 +42,7 @@ export default function Home() {
               href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=default-template-tw&utm_campaign=create-next-app"
               className="font-medium text-zinc-950 dark:text-zinc-50"
             >
-              Learning
+         sekjfner er t er t ert r t
             </a>{" "}
             center.
           </p>
