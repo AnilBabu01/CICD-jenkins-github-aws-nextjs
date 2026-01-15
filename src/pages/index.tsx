@@ -30,7 +30,7 @@ export default function Home() {
              This is anil and akash
           </h1>
           <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting This Called
+            Looking for a starting This Called  no yrr kya klru me 
             <a
               href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=default-template-tw&utm_campaign=create-next-app"
               className="font-medium text-zinc-950 dark:text-zinc-50"
