@@ -14,64 +14,58 @@ const geistMono = Geist_Mono({
 export default function Home() {
   return (
     <div
-      className={`${geistSans.className} ${geistMono.className} flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black`}
+      className={`${geistSans.className} ${geistMono.className} min-h-screen flex items-center justify-center bg-gradient-to-br from-indigo-600 via-purple-600 to-pink-600`}
     >
-      <main className="flex min-h-screen w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
+      <main className="w-full max-w-4xl bg-white dark:bg-zinc-900 rounded-2xl shadow-2xl p-12 text-center">
         <Image
-          className="dark:invert"
           src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
+          alt="Next.js Logo"
+          width={120}
+          height={30}
+          className="mx-auto mb-6 dark:invert"
         />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-             This is 
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=default-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-         dskufhkdj f dr rg es r tr e td  
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=default-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-         sekjfner er t er    f r f er g tre gh tr g htr h tr  
-            </a>{" "}
-            center.
-          </p>
+
+        <h1 className="text-4xl font-bold text-zinc-900 dark:text-white mb-4">
+          CI/CD Pipeline on AWS
+        </h1>
+
+        <p className="text-lg text-zinc-600 dark:text-zinc-400 mb-10">
+          Automated deployment using <strong>GitHub, Webhooks, Jenkins & EC2</strong>
+        </p>
+
+        <div className="grid gap-6 text-left">
+          <div className="bg-indigo-50 dark:bg-zinc-800 p-4 rounded-lg">
+            <h2 className="font-semibold text-indigo-700 dark:text-indigo-400">
+              Step 1: GitHub
+            </h2>
+            <p>Push Next.js code to GitHub repository.</p>
+          </div>
+
+          <div className="bg-purple-50 dark:bg-zinc-800 p-4 rounded-lg">
+            <h2 className="font-semibold text-purple-700 dark:text-purple-400">
+              Step 2: Webhook
+            </h2>
+            <p>Webhook triggers Jenkins on every git push.</p>
+          </div>
+
+          <div className="bg-pink-50 dark:bg-zinc-800 p-4 rounded-lg">
+            <h2 className="font-semibold text-pink-700 dark:text-pink-400">
+              Step 3: Jenkins
+            </h2>
+            <p>Build, test & deploy using Jenkins pipeline.</p>
+          </div>
+
+          <div className="bg-green-50 dark:bg-zinc-800 p-4 rounded-lg">
+            <h2 className="font-semibold text-green-700 dark:text-green-400">
+              Step 4: EC2 (AWS)
+            </h2>
+            <p>Application deployed automatically on EC2 instance.</p>
+          </div>
         </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs/pages/getting-started?utm_source=create-next-app&utm_medium=default-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
-        </div>
+
+        <p className="mt-10 text-sm text-zinc-500">
+          Built & Deployed by <strong>Anil</strong> 🚀
+        </p>
       </main>
     </div>
   );
